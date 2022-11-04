@@ -1,0 +1,55 @@
+#container{
+    background-color: wheat;
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    margin: 0px;
+}
+#malelitery>ol{
+    list-style: lower-alpha;
+}
+#duzelitery>ol{
+    list-style: upper-alpha;
+}
+#duzerzymskie>ol{
+    list-style: upper-roman;
+}
+#numerzero>ol{
+    list-style: decimal-leading-zero;
+}
+#czarnekropki>ul{
+    list-style: disc;
+}
+#pustekola>ul{
+    list-style: circle;
+}
+#czarnekwadraty>ul{
+    list-style: square;
+}
+
+#nagłówek{
+    background-color: rgb(173, 59, 59);
+    text-align: center;
+    width: 1000px;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightseagreen;
+}
+#container1{
+    float: left;
+    margin: 0px;
+    padding-left: 20px;
+}
+#container2{
+    float: right;
+    margin: 0px;
+    padding-right: 20px;
+}
+#footer{
+    background-color: lightgreen;
+    text-align: center;
+    margin: 0px;
+    width: 1000px;
+}

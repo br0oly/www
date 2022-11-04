@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <div id="naglowek">
+        <h2>Galeria miejsc ciekawych</h2>
+    </div>
+    <div id="bannerglowny">
+        <img src="lanzarotte.jpg" alt="Galeria">
+    </div>
+    <div id="bannerlewy">
+        <h3>przeglądaj zdjęcia</h3>
+        <img src="lanzarotte.jpg" alt="lanzorette" onclick="setImg('lanzorotte.jpg')">
+        <img src="pekin.jpg" alt="pekin" onclick="setImg('pekin.jpg')">
+        <img src="serengeti.jpg" alt="serengeti" onclick="setImg('serengeti.jpg')">
+        <img src="tajlandia.jpg" alt="tajlandia" onclick="setImg('tajlandiajpg')">
+        <img src="wenecja.jpg" alt="wenecja" onclick="setImg('wenecja.jpg')">
+        <script>
+            function setImg(img){
+                document.getElementById('main').setAttribute("src", img);
+            }
+        </script>
+    </div>
+    <div id="bannerprawy">
+        <h3>obrazy w naszej galerii</h3>
+        <table>
+            <tr>
+                <td>Europa</td>
+                <td>Azja</td>
+                <td>Afryka</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p>polub as <img id="onoff" src="icon-off.png" alt="ikona1" onclick="onoff()"></p>
+        <a href="http://pixabay.com" target="_blank">Odkryj wiecej zdjęć</a>
+    </div>
+    <div id="stopka"><p>Opracował &copy; Mikołaj Pawlaczyk</p></div>
+    <script>
+        function onoff(){
+            if(document.getElementById("onoff").getAttribute('src')=="icon-off.png")
+            document.getElementById("onoff").setAttribute('src', 'icon-on.png');
+            else document.getElementById("onoff").setAttribute('src', 'icon-off.png');
+        }
+    </script>
+</body>
+</html>

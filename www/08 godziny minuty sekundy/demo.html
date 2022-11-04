@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sek = 4000;
+        let g = Math.floor(sek/3600);
+        let m = Math.floor(sek%3600/60);
+        let s = Math.floor(sek%60);
+
+        console.log(`${g} g ${m} m ${s} s`);
+    </script>
+</body>
+</html>

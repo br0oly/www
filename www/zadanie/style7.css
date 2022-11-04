@@ -1,0 +1,27 @@
+body{
+    font-family: helvetica;
+}
+#naglowek, #stopka{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    text-align: center;
+    height: 30px;
+
+}
+#bannerglowny{
+    background-color: rgb(176, 196, 222);
+    padding: 50px;
+    text-align: center;
+
+}
+#bannerlewy{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 80%;
+    float: left;
+}
+#bannerprawy{
+    background-color: rgb(70, 130, 180);
+    
+}
